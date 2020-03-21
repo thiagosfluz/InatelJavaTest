@@ -1,0 +1,26 @@
+For testing API CRUD
+
+Create a Stock quote:
+
+POST http://localhost:8081/addStock
+
+{
+	"name": "petr8",
+	"date": "2019-01-01",
+	"price": 999
+}
+
+{
+	"name": "petr8",
+	"date": "2019-01-01",
+	"price": 999
+}
+
+Read a Stock quote by Id
+
+GET http://localhost:8081/stockById/2
+http://localhost:8081/stockById/3
+
+Real all stocks quotes
+
+GET http://localhost:8081/stocks
